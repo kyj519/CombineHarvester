@@ -1,0 +1,50 @@
+imax    1 number of bins
+jmax    10 number of processes minus 1
+kmax    * number of nuisance parameters
+--------------------------------------------------------------------------------
+shapes * ME Vcb_Template_ME.root ME/$PROCESS ME/$PROCESS_$SYSTEMATIC
+--------------------------------------------------------------------------------
+bin          ME              
+observation  23390.0         
+--------------------------------------------------------------------------------
+bin                                 ME              ME              ME              ME              ME              ME              ME              ME              ME              ME              ME              
+process                             TTLJ_JJ         TTLL_JJ         VJets           QCD             VV              ST              ttV             TTLJ_CC         TTLL_CC         TTLL_BB         TTLJ_BB         
+process                             1               2               3               4               5               6               7               -3              -2              -1              0               
+rate                                93.4195         18322.4         23.8789         0               9.99925         701.076         182.518         18.7039         2801.3          1520.82         21.0473         
+--------------------------------------------------------------------------------
+CP5_                        shape   1               1               -               -               -               -               -               1               1               1               1               
+C_Tag_Extrap_               shape   1               1               1               1               1               1               1               1               1               1               1               
+C_Tag_Interp_               shape   1               1               1               1               1               1               1               1               1               1               1               
+C_Tag_Stat_                 shape   1               1               1               1               1               1               1               1               1               1               1               
+C_Tag_XSec_Br_Unc_DYJets_B_ shape   1               1               1               1               1               1               1               1               1               1               1               
+C_Tag_XSec_Br_Unc_DYJets_C_ shape   1               1               1               1               1               1               1               1               1               1               1               
+C_Tag_XSec_Br_Unc_WJets_C_  shape   1               1               1               1               1               1               1               1               1               1               1               
+El_Id_                      shape   1               1               1               1               1               1               1               1               1               1               1               
+El_Reco_                    shape   1               1               1               1               1               1               1               1               1               1               1               
+El_Trig_                    shape   1               1               1               1               1               1               1               1               1               1               1               
+FSR_                        shape   1               1               1               1               1               1               1               1               1               1               1               
+ISR_                        shape   1               1               1               1               1               1               1               1               1               1               1               
+Jet_En_                     shape   1               1               1               1               1               1               1               1               1               1               1               
+Jet_Res_                    shape   1               1               1               1               1               1               1               1               1               1               1               
+MuF_                        shape   1               1               1               1               1               1               1               1               1               1               1               
+MuR_                        shape   1               1               1               1               1               1               1               1               1               1               1               
+Mu_Id_                      shape   1               1               1               1               1               1               1               1               1               1               1               
+Mu_Iso_                     shape   1               1               1               1               1               1               1               1               1               1               1               
+Mu_Trig_                    shape   1               1               1               1               1               1               1               1               1               1               1               
+PDF_Alternative_            shape   1               1               1               1               1               1               1               1               1               1               1               
+PDF_As_                     shape   1               1               1               1               1               1               1               1               1               1               1               
+PDF_Error_Set_              shape   1               1               1               1               1               1               1               1               1               1               1               
+PU_Jet_Veto_                shape   1               1               1               1               1               1               1               1               1               1               1               
+Pileup_                     shape   1               1               1               1               1               1               1               1               1               1               1               
+Prefire_                    shape   1               1               1               1               1               1               1               1               1               1               1               
+STNorm                      lnN     -               -               -               -               -               1.2             -               -               -               -               -               
+Top_Pt_Reweight_            shape   1               1               -               -               -               -               -               1               1               1               1               
+UE_                         shape   1               1               1               1               1               1               1               1               1               1               1               
+VJetsNorm                   lnN     -               -               1.2             -               -               -               -               -               -               -               -               
+VVNorm                      lnN     -               -               -               -               1.2             -               -               -               -               -               -               
+hDamp_                      shape   1               1               -               -               -               -               -               1               1               1               1               
+lumi_uncorr_2017            lnN     1.02            1.02            1.02            1.02            1.02            1.02            1.02            1.02            1.02            1.02            1.02            
+mTop_                       shape   1               1               -               -               -               -               -               1               1               1               1               
+ttVNorm                     lnN     -               -               -               -               -               -               1.2             -               -               -               -               
+ttxsec                      lnN     1.0439          1.0439          -               -               -               -               -               1.0439          1.0439          1.0439          1.0439          
+ME autoMCStats 5 0 1
