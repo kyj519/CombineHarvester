@@ -22,6 +22,7 @@
 <bin file="SOBPlot.cpp" name="SOBPlot"></bin>
 <bin file="YieldTable.cpp" name="YieldTable"></bin>
 <bin file="hzz4l.cpp" name="hzz4l"></bin>
+<bin file="Vcb.cpp" name="Vcb"></bin>
 <use name="root"/>
 <use name="rootmath"/>
 <use name="roofit"/>
@@ -35,4 +36,4 @@
 <use name="boost_python"/>
 <use name="boost_regex"/>
 <use name="rootpy"/>
-<use name="CombineHarvester/CombineTools"/>
+<use name="CombineHarvester/CombineTools"/
